@@ -4,11 +4,11 @@
 #include <string>
 int main(int argh, char* argv[])
 {
-    cv::VideoCapture cap(0);//デバイスのオープン
+    cv::VideoCapture cap(1);//デバイスのオープン
     //cap.open(0);//こっちでも良い．
     //cap.set(cv::CAP_PROP_FOCUS, 500);
-    const int camera_width = 640;
-    const int camera_height = 480;
+    const int camera_width = 1280;
+    const int camera_height = 720;
 
     cap.set(cv::CAP_PROP_FRAME_WIDTH, camera_width);
     cap.set(cv::CAP_PROP_FRAME_HEIGHT, camera_height);
