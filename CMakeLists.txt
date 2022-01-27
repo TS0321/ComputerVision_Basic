@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+enable_language(CXX)
+set(CMAKE_CXX_STANDARD 17)
+ADD_SUBDIRECTORY(chArUcoCalibration)
+ADD_SUBDIRECTORY(Capture)
