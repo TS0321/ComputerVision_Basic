@@ -37,7 +37,7 @@ int main(int argh, char* argv[])
         {
             //ƒtƒŒ[ƒ€‰æ‘œ‚ğ•Û‘¶‚·‚éD
             std::string filename;
-            filename = "../../../Capdata/img" + std::to_string(img_num++) + ".png";
+            filename = "../../Capdata/img" + std::to_string(img_num++) + ".png";
             cv::imwrite(filename, frame);
             cv::waitKey(10);
             std::cout << filename << " is saved!" << std::endl;
